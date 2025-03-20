@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-sccale=1.0">
+    <title>Random Song Recommendation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50 px;
+        }
+        .container {
+            padding: 20px;
+            border: 2px solid #333;
+            display: inline-block;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>  
+<body>
+    <div class="container">
+        <h1> 🎶 Your Random Song 🎶</h1>
+        <h2> {{song.title }}</h2>
+        <h3>by {{song.artist}}</h3>
+        <p>Refresh page for a new song!</p>
+    </div>
+</body>  
+</html>

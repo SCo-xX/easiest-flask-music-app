@@ -13,7 +13,7 @@ songs = pd.DataFrame(data)
 
 @app.route("/")
 def home():
-    song = df.sample(n=1).iloc[0] #Pick a random song
+    song = songs.sample(n=1).iloc[0] #Pick a random song
     return render_template("index.html", song=song)
 
 
